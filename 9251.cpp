@@ -4,6 +4,7 @@
 using namespace std;
 
 int dp[1001][1001];
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -18,6 +19,6 @@ int main() {
 		}
 	}
 
-	cout << dp[a.length()][b.length()] << endl;
+	cout << dp[a.length()][b.length()];
 	return 0;
 }
