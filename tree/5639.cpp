@@ -1,7 +1,5 @@
 #include <iostream>
-#include <vector>
 using namespace std;
-#define MAX 10001
 
 typedef struct Node{
 	int data;
@@ -32,7 +30,6 @@ void post(Node* node) {
 
 int main() {
 	int n;
-
 	Node* root = NULL;
 
 	while (cin >> n) {
@@ -41,6 +38,5 @@ int main() {
 	}
 
 	post(root);
-	
 	return 0;
 }
