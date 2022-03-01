@@ -2,8 +2,8 @@
 using namespace std;
 
 int m, n;
-int dp[501][501];
-int height[501][501];
+int dp[500][500];
+int height[500][500];
 int dx[4] = { 0, 0, -1, 1 };
 int dy[4] = { -1, 1, 0, 0 };
 
