@@ -2,8 +2,8 @@
 #include <algorithm>
 using namespace std;
 
-int box[1001];
-int res[1001];
+int box[1000];
+int res[1000];
 
 int main() {
 	int n;
