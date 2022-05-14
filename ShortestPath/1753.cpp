@@ -40,7 +40,6 @@ int main() {
 		for (size_t i = 0; i < graph[idx].size(); i++) {
 			int n_idx = graph[idx][i].first;
 			int cost = graph[idx][i].second;
-
 			if (idx_dist + cost < dist[n_idx]) {
 				dist[n_idx] = idx_dist + cost;
 				pq.push({ dist[n_idx], n_idx });
