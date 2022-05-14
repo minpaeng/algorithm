@@ -37,3 +37,32 @@ int main() {
 	else cout << '0';
 	return 0;
 }
+
+/* int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+
+	int N, S;
+	cin >> N >> S;
+	v.push_back(0);
+	for (int i = 0; i < N; i++) {
+		int t;
+		cin >> t;
+		v.push_back(v[i] + t);
+	}
+
+	int s = 1, e = 1;
+	int len = N + 1;
+
+	while (s <= N && e <= N) {
+		if (v[e] - v[s - 1] < S) e++;
+		else {
+			len = min(len, e - (s - 1));
+			s++;
+		}
+	}
+
+	if (len != (N + 1))cout << len;
+	else cout << '0';
+	return 0;
+} */
